@@ -1,0 +1,12 @@
+.chat-item {
+  background-color: #f1f4f6;
+  display: flex;
+  padding-left: 4vw;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+.intercolor-avatar {
+  width: 49px;
+  margin-left: 5%;
+}

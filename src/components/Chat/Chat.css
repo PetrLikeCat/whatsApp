@@ -1,0 +1,48 @@
+.chat {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 66vw;
+  height: 100vh;
+  background-color: #f0f2f5;
+}
+.chat__input-message {
+  position: absolute;
+  bottom: 21px;
+  right: 20px;
+  left: 20px;
+}
+.chat__messages {
+  display: block;
+  height: 100vh;
+  position: relative;
+}
+.chat__interlocutor-data {
+  justify-content: center;
+  height: 7vh;
+  display: flex;
+  width: 26vw;
+}
+.chat__interlocutor-data::before {
+  content: "";
+  display: block;
+  height: 7vh;
+  top: 0;
+  border: 1px solid #f2f2f2;
+  left: 0;
+  position: absolute;
+}
+.interlocutor-phone-number {
+  font-size: 2vh;
+  font-weight: 700;
+  height: 7vh;
+}
+.chat__messages__items {
+  height: 83vh;
+  background-image: url("../../Images/chat-fon.png");
+  background-color: #eae6df;
+  overflow-y: auto;
+}
+.chat__interlocutor-data__user-avatar {
+  width: 40px;
+}

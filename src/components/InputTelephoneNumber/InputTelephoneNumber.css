@@ -1,0 +1,53 @@
+.user-window {
+  width: 34vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.user-window__input-telephone-number {
+  display: flex;
+  margin-top: 10px;
+}
+.user-window__create-interlocutor {
+  display: flex;
+  align-items: center;
+  position: relative;
+  width: 34vw;
+  height: 8vh;
+}
+.user-window__create-chat {
+  width: 30vw;
+  background: #f2f3f5;
+  border-radius: 8px;
+  height: 5vh;
+  margin-left: 7px;
+  color: #a9a9a9;
+  border: 0;
+}
+.user-window__telephone-number {
+  position: relative;
+  width: 32vw;
+}
+.user-window__chats {
+  display: flex;
+  background: #f2f3f5;
+  height: 9%;
+  width: 100%;
+}
+p {
+  font-weight: 700;
+  padding-left: 3vw;
+}
+.user-window__create-interlocutor::after {
+  content: "";
+  display: block;
+  bottom: 0;
+  width: 34vw;
+  border: 1px solid #e9edef;
+  position: absolute;
+}
+.intercolor-avatar {
+  width: 49px;
+  margin-left: 5px;
+}
